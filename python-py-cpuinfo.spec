@@ -7,13 +7,13 @@
 Summary:	Get CPU info with pure Python 2
 Summary(pl.UTF-8):	Pobieranie informacji o CPU w czystym Pythonie 2
 Name:		python-py-cpuinfo
-Version:	5.0.0
-Release:	2
+Version:	8.0.0
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/py-cpuinfo/
 Source0:	https://files.pythonhosted.org/packages/source/p/py-cpuinfo/py-cpuinfo-%{version}.tar.gz
-# Source0-md5:	2c1dff2af1f3ae6ea646eadf395092b7
+# Source0-md5:	cf3bec89839a0bf18c5f6c1c18aaee10
 URL:		https://github.com/workhorsy/py-cpuinfo
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.7
